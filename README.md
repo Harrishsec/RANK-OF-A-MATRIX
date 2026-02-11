@@ -11,17 +11,17 @@ To write a python program to find the rank of a matrix
 ### Step 4: 
 ## Program:
 ```
-#Program to find the solution for the given linear equations.
+#Program to find the rank of a matrix.
 #Developed by: Harrish P
-#RegisterNumber: 212224230088
+#RegisterNumber:212224230088
 import numpy as np
-A=np.array([[1,3],[2,5]])
-B=np.array([5,-3])
-C=np.linalg.solve(A,B)
-print(C)
+A=([[1,2,3],[3,6,9]])
+sol=np.linalg.matrix_rank(A)
+print(sol)
 ```
 ## Output:
-<img width="1919" height="1056" alt="image" src="https://github.com/user-attachments/assets/1fc19d23-b162-4a1f-8b9f-37ffe66d6164" />
+<img width="1919" height="1044" alt="image" src="https://github.com/user-attachments/assets/8c81051f-196f-403f-842e-24bc5d5dfd04" />
+
 
 ## Result:
 Thus the rank for the given matrix is successfully solved by  using a python program.
